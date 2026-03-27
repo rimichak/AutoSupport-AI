@@ -1,0 +1,24 @@
+name: autosupport-ai
+description: AI training environment for customer support
+
+actions:
+  - check_order
+  - contact_customer
+  - refund
+  - escalate
+
+observations:
+  - ticket
+  - status
+  - history
+  - customer_mood
+  - order_status
+  - time_left
+
+reward:
+  type: partial
+
+tasks:
+  - easy
+  - medium
+  - hard
