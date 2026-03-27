@@ -1,4 +1,4 @@
-from core.environment import SupportEnv
+from env.environment import SupportEnv
 from tasks.task_loader import get_tasks
 from agent.baseline_agent import run_agent
 from grader.grader import grade
