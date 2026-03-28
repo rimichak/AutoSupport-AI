@@ -1,5 +1,6 @@
 import sys
 import os
+from app.app import demo
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import gradio as gr
